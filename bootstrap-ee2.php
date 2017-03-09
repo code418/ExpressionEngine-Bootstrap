@@ -32,7 +32,8 @@ $CFG =& load_class('Config', 'core');
 if (isset($assign_to_config)) {
 	$CFG->_assign_to_config($assign_to_config);
 }
-$UNI =& load_class('Utf8', 'core');
+//Disabled as causes an error
+//$UNI =& load_class('Utf8', 'core');
 $URI =& load_class('URI', 'core');
 $SEC =& load_class('Security', 'core');
 $IN	=& load_class('Input', 'core');	
